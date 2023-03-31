@@ -7,7 +7,7 @@
     max-width: 800px;
     width: 100%;
     padding: 30px;
-    margin: 0px 300px 30px;
+    margin: 0px 100px 30px;
     border-radius: 5px;
 }
 
@@ -21,7 +21,7 @@
     max-width: 800px;
     width: 100%;
     padding: 30px;
-    margin: 0 300px 30px;
+    margin: 0 100px 30px;
     border-radius: 5px;
 
 }
@@ -36,7 +36,7 @@
     max-width: 800px;
     width: 100%;
     padding: 30px;
-    margin: 0 300px 30px;
+    margin: 0 100px 30px;
     border-radius: 5px;
 
 }
@@ -51,7 +51,7 @@
     max-width: 800px;
     width: 100%;
     padding: 30px;
-    margin: 0 300px 30px;
+    margin: 0 100px 30px;
     border-radius: 5px;
 }
 
@@ -65,7 +65,7 @@
     max-width: 800px;
     width: 100%;
     padding: 30px;
-    margin: 0 300px 30px;
+    margin: 0 100px 30px;
     border-radius: 5px;
 }
 
@@ -79,7 +79,7 @@
     max-width: 800px;
     width: 100%;
     padding: 30px;
-    margin: 0 300px 30px;
+    margin: 0 100px 30px;
     border-radius: 5px;
 }
 
@@ -91,10 +91,10 @@
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.8);
     font-size: 1.2em;
-    max-width: 300px;
+    max-width: 800px;
     width: 100%;
     padding: 30px;
-    margin: 0 500px 30px;
+    margin: 0 100px 30px;
     border-radius: 5px;
 }
 
@@ -108,13 +108,17 @@
     max-width: 800px;
     width: 100%;
     padding: 30px;
-    margin: 0 300px 30px;
+    margin: 0 100px 30px;
     border-radius: 5px;
 }
 @media screen and (max-width:920px) {
     .grid {
       grid-template-columns: repeat(5, 1fr);
   
+    }
+
+    .credits{
+        font-size: 100px;
     }
 }
 

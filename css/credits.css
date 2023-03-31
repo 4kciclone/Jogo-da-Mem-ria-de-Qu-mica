@@ -111,6 +111,12 @@
     margin: 0 500px 30px;
     border-radius: 5px;
 }
+@media screen and (max-width:920px) {
+    .grid {
+      grid-template-columns: repeat(5, 1fr);
+  
+    }
+}
 
 
 

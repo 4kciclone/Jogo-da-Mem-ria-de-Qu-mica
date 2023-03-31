@@ -4,6 +4,7 @@ const spanPlayer = document.querySelector('.player');
 
 const timer = document.querySelector('.timer');
 
+
 const characters = [
     'Bastao de destilação 1',
     'Bastão de vidro 1',

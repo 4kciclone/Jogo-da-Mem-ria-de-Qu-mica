@@ -4,113 +4,29 @@
     align-items: center;
     justify-content: space-between;
     font-size: 1em;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    margin: 0px 300px 30px;
+    border-radius: 5px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1em;
     max-width: 500px;
     width: 100%;
     padding: 30px;
     margin: 0px 250px 30px;
     border-radius: 5px;
-}
-
-.escola {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 1em;
-    max-width: 800px;
-    width: 100%;
-    padding: 30px;
-    margin: 0 100px 30px;
-    border-radius: 5px;
 
 }
 
-.professora{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 1em;
-    max-width: 800px;
-    width: 100%;
-    padding: 30px;
-    margin: 0 100px 30px;
-    border-radius: 5px;
 
-}
-
-.professor_coor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 1em;
-    max-width: 800px;
-    width: 100%;
-    padding: 30px;
-    margin: 0 100px 30px;
-    border-radius: 5px;
-}
-
-.professor_coor_geral {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 1em;
-    max-width: 800px;
-    width: 100%;
-    padding: 30px;
-    margin: 0 100px 30px;
-    border-radius: 5px;
-}
-
-.aviso {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 1em;
-    max-width: 800px;
-    width: 100%;
-    padding: 30px;
-    margin: 0 100px 30px;
-    border-radius: 5px;
-}
-
-
-.aluno_1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 1em;
-    max-width: 800px;
-    width: 100%;
-    padding: 30px;
-    margin: 0 100px 30px;
-    border-radius: 5px;
-}
-
-.aluno_2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 1em;
-    max-width: 800px;
-    width: 100%;
-    padding: 30px;
-    margin: 0 100px 30px;
-    border-radius: 5px;
-}
 @media screen and (max-width:920px) {
     .grid {
       grid-template-columns: repeat(5, 1fr);

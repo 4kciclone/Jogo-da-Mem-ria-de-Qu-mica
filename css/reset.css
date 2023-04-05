@@ -9,3 +9,10 @@
     font-family: 'Press Start 2P', cursive;
 
 }
+
+@media screen and (max-width:920px) {
+    .grid {
+      grid-template-columns: repeat(5, 1fr);
+  
+    }
+}

@@ -9,6 +9,7 @@
     padding: 30px;
     margin: 0px 750px 30px;
     border-radius: 5px;
+    background-size: cover;
     
 }
 
@@ -24,35 +25,17 @@
     padding: 30px;
     margin: 0px 700px 30px;
     border-radius: 5px;
+    background-size: cover;
    
 
 }
 
-@media screen and (max-width:500px) {
-    .grid {
-      grid-template-columns: repeat(5, 1fr);
-  
-    }
-  
-    section, aside {
-      width: 100%;
-      padding: 0;
-    }
+@media screen and (max-width:920px) {
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+
   }
-  
-  @media  screen and(max-width: 300px) {
-    nav li{
-      float: none;
-      text-align: center;
-      width: 100%;
-    }
-  
-    footer p{
-      display: none;
-    }
-  
-    
-  }
+}
 
 
 

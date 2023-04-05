@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    border: none;
-    font-family: 'Press Start 2P', cursive;
+@media screen and (max-width:768px) {
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
 
+  }
+
+  section, aside {
+    width: 100%;
+    padding: 0;
+  }
 }
 
-@media screen and (max-width:920px) {
-    .grid {
-      grid-template-columns: repeat(5, 1fr);
+@media  screen and(max-width: 600px) {
+  nav li{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  footer p{
+    display: none;
+  }
+
   
-    }
 }

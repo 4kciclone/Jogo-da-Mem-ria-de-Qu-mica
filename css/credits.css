@@ -2,13 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 1em;
     max-width: 400px;
     width: 100%;
     padding: 30px;
-    margin: 0px 100px 30px;
+    margin: 0px 750px 30px;
     border-radius: 5px;
+    
 }
 
 
@@ -21,8 +22,9 @@
     max-width: 500px;
     width: 100%;
     padding: 30px;
-    margin: 0px 50px 30px;
+    margin: 0px 700px 30px;
     border-radius: 5px;
+   
 
 }
 

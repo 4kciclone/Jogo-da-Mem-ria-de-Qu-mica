@@ -122,7 +122,7 @@ const loadGame = () => {
 
     const duplicateCharacters = [ ...characters, ...characters];
 
-    const shuffledArray = duplicateCharacters.sort(() => Math.random() - 0.5);
+    const shuffledArray = duplicateCharacters.sort(() => Math.random() - 1.0);
 
     duplicateCharacters.forEach((character) =>{
        const card = createCard(character);

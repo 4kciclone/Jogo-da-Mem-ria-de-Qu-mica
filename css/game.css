@@ -3,10 +3,10 @@ main {
     flex-direction: column;
     width: 100%;
     background-image: url('../imagens/fundo\ 2.jpg');
-    background-size: cover;
+    background-size: contain;
     min-height: 100vh;
     align-items: center;
-    justify-content: center;
+    justify-content: flex;
     padding: 20px 20px 50px;
 }
 
@@ -28,7 +28,7 @@ main {
 
 header {
     display: flex;
-    align-items: center;
+    align-items: flex;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.8);
     font-size: 1.2em;

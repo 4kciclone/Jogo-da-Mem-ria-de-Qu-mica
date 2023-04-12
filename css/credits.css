@@ -8,8 +8,7 @@
     width: 100%;
     padding: 20px 20px 50px;
     margin: 0px 750px 30px;
-    border-radius: 5px;
-    background-size: cover;
+    background-size: auto;
     
 }
 
@@ -25,17 +24,11 @@
     padding: 20px 20px 20px;
     margin: 0px 700px 30px;
     border-radius: 5px;
-    background-size: cover;
+    background-size: auto;
    
 
 }
 
-@media screen and (max-width:920px) {
-  .grid {
-    grid-template-columns: repeat(5, 1fr);
-
-  }
-}
 
 
 

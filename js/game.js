@@ -4,6 +4,13 @@ const spanPlayer = document.querySelector('.player');
 
 const timer = document.querySelector('.timer');
 
+const bnt = document.querySelector('#refresh');
+
+bnt.addEventListener('click', () => {
+    location.reload()
+})
+
+
 
 const characters = [
     'Bastao de destilação 1',

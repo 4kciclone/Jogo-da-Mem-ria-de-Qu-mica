@@ -9,6 +9,11 @@ main {
     justify-content: center;
     padding: 20px 20px 50px;
 }
+
+.refresh{
+    color: rgb(0, 0, 0);
+    margin: 1px;
+}
 .player{
     color:rgb(0, 0, 0)
 }
